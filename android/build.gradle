@@ -33,7 +33,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 28
-
+        namespace 'com.amap.api.location.fluttify'
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
         main.jniLibs.srcDir 'libs'
